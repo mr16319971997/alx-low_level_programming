@@ -1,18 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - main function
- * Description:printing alphabets in lowercase
- * Return: Return
+ * main -Entery point
+ *
+ * Description: A C program that prints with put function
+ *
+ * Return: Alawyz 0(Scuccess)
  */
+
 int main(void)
 {
-	int ch, CH;
+	int ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
-	for (CH = 'A'; CH <= 'Z'; CH++)
-		putchar(CH);
 		putchar('\n');
 	return (0);
 }
